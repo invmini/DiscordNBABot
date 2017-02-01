@@ -8,7 +8,7 @@ Discord bot displaying stats from the NBA
 
 **gameScoreboard**
 
- >*Parameters : gameId*
+ >*Parameters : date(YYYYMMDD), gameId*
  
  >Display game's scoreboard.
  
