@@ -11,10 +11,13 @@ const nba = require("nba.js").default;
 
     let strDate;
     strDate=""+d.getFullYear();
+    if(d.getDate() === 1){
+      d.setDate(d.getDate()-1);
+    }
     if(d.getMonth()<9){
-      strDate=strDate.concat("0",d.getMonth()+1,d.getDate()-1);
+      strDate=strDate.concat("0",d.getMonth()+1,d.getDate());
     }else{
-      strDate=strDate.concat(d.getMonth()+1,d.getDate()-1);
+      strDate=strDate.concat(d.getMonth()+1,d.getDate());
     }
     console.log(strDate);
     nba.data.scoreboard({

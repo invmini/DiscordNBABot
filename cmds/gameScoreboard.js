@@ -16,7 +16,6 @@ var playersMap = new Map();
       for(var player in jsonContent.league.standard){
         var playerName = jsonContent.league.standard[player].firstName.substring(0, 1)+".";
         playerName=playerName+(jsonContent.league.standard[player].lastName);
-        console.log(jsonContent.league.standard[player].lastName);
         playersMap.set(jsonContent.league.standard[player].personId,playerName);
       }
       var parsed=JSON.parse(JSON.stringify(res));
