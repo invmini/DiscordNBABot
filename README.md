@@ -39,7 +39,7 @@ This bot is based on [Discord.js](https://discord.js.org/)! In order to run it, 
 
 > **Note:**
 
-> - You will need to install **[nba.js](https://github.com/kshvmdn/nba.js/)**(git repo).
+> - You will need to install **[nba.js](https://github.com/kshvmdn/nba.js/)**(git repo) and **beautify.js**.
 
 #### <i class="icon-file"></i> Set-up
 
